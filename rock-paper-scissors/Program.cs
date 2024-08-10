@@ -11,7 +11,7 @@ int gameMode;
 Console.Write("Your choice: ");
 var playMode = Console.ReadLine();
 gameMode =
-    Convert.ToInt32(playMode); //convert araştır
+    Convert.ToInt32(playMode);
 try
 {
     switch (gameMode)
